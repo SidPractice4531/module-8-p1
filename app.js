@@ -3,7 +3,7 @@ import express from 'express';
 
 import eventRoutes from './routes/events.js';
 
-const app = express();
+const app = express();//
 
 app.use(bodyParser.json());
 
